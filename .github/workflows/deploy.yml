@@ -24,8 +24,8 @@ jobs:
           context: .
           file: ./docker/Dockerfile.user
           push: true
-          tags: 100xdevs/week-18-class:latest
+          tags: rucha1603/100xdevs:latest
 
       - name: Verify Pushed Image
-        uses: docker pull 100xdevs/week-18-class:latest
+        uses: docker pull rucha1603/100xdevs:latest
 
